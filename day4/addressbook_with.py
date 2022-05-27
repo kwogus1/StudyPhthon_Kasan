@@ -99,7 +99,6 @@ def editContact(contacts, name):
                 # 예외발생
                 print('정확하게 폰번호/이메일/주소 순으로 입력하세요')           
 
-            
 
 #메뉴 출력
 def get_Menu():  
@@ -217,10 +216,6 @@ def run():
 
         else:
             clearConsole()
-            
-    
-
-
 
 if __name__=='__main__': # EntryPoint(프로그램 시작점)
     print(__name__)
